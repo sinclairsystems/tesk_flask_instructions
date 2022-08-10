@@ -25,7 +25,7 @@ app = Flask(__name__)
 #everything after that / can lead to different parts of a website/ web service
 @app.route('/')
 def hello_world():
-    return 'lol IS GOIN ON GUYS? WHATS GOOD?!. This is a website of sorts...obviously not a very pretty one but it is functional'
+    return 'what IS GOIN ON GUYS? WHATS GOOD?!. This is a website of sorts...obviously not a very pretty one but it is functional'
 
 #here we have a different URL route which will take in an input and put it through PAYEs totalTax method and return
 #the result
